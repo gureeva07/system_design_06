@@ -12,7 +12,7 @@ endif()
 
 userver_setup_environment()
 
-# Подключаем libmongoc и librdkafka через pkg-config
+# Подключаю libmongoc и librdkafka через pkg-config
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(MONGOC REQUIRED libmongoc-1.0)
 pkg_check_modules(RDKAFKA REQUIRED rdkafka)

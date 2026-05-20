@@ -1,6 +1,6 @@
 FROM ghcr.io/userver-framework/ubuntu-22.04-userver-pg:latest
 
-# Увеличиваем таймаут pip и используем зеркало для надёжности
+# Увеличиваю таймаут pip и используем зеркало для надёжности
 ENV PIP_DEFAULT_TIMEOUT=120
 ENV PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 
